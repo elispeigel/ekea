@@ -52,6 +52,7 @@ const StyleMoreVert = styled(MoreVert)`
 const Container = styled.div`
   background-color: #0a3181;
   height: 4em;
+  padding: 1em;
 `;
 
 export default class Header extends Component {
