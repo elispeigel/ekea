@@ -8,6 +8,7 @@ import {
 import Categories from './Categories/Categories';
 import Header from './Header/Header';
 import Home from './Home';
+import Locations from './Locations';
 import './App.css';
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/" component={Home} />
               <Route path="/categories" component={Categories} />
+              <Route path="/stores" component={Locations} />
               <Redirect to="/" />
             </Switch>
           </div>

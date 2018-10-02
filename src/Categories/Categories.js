@@ -1,10 +1,26 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'styled-css-grid';
+import styled from 'styled-components';
 import Category from './Category';
+
+const Title = styled.h1`
+  text-align: center;
+  font-family: futura;
+  color: #fde834;
+  font-size: 6 em;
+`;
+
+const TitleContainer = styled.div`
+  background-color: #0a3181;
+`;
 
 export default class Categories extends Component {
   render() {
     return (
+      <div>
+      <TitleContainer>
+          <Title>EKEA</Title>
+      </TitleContainer>
       <Grid gap="0" columns={4} height="100vh">
         <Cell width={1} middle center>
           <Category
@@ -391,6 +407,7 @@ export default class Categories extends Component {
           />
         </Cell>
       </Grid>
+      </div>
     );
   }
 }
