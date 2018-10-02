@@ -13,17 +13,16 @@ const TitleContainer = styled.div`
 `;
 
 const HomeScreen = styled.div`
-  background: 
-  linear-gradient(
-    rgba(253, 232, 52, 0.45), 
-    rgba(253, 232, 52, 0.45)
-  ),
-  url('https://cdn.pixabay.com/photo/2015/11/07/21/29/living-1032733_960_720.jpg');
-  background-image: ;
+  background: linear-gradient(
+      rgba(253, 232, 52, 0.45),
+      rgba(253, 232, 52, 0.45)
+    ),
+    url('https://cdn.pixabay.com/photo/2015/11/07/21/29/living-1032733_960_720.jpg');
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
   text-align: center;
+  border: 1em #0a3181;
 `;
 
 const MainTitle = styled.h1`
