@@ -28,7 +28,7 @@ const HomeScreen = styled.div`
 const MainTitle = styled.h1`
   font-size: 12em;
   color: #0a3181;
-  padding: 0;
+  margin: 0;
   font-weight: bold;
 `;
 
