@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import styled from 'styled-components';
 
 const Title = styled.h1`
@@ -35,14 +35,14 @@ const MainTitle = styled.h1`
 export default class Home extends Component {
   render() {
     return (
-      <div>
+      <Fragment>
         <TitleContainer>
           <Title>EKEA</Title>
         </TitleContainer>
         <HomeScreen>
           <MainTitle>EKEA</MainTitle>
         </HomeScreen>
-      </div>
+      </Fragment>
     );
   }
 }
