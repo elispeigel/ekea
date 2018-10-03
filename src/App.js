@@ -9,6 +9,7 @@ import Categories from './Categories/Categories';
 import Header from './Header/Header';
 import Home from './Home';
 import Locations from './Locations';
+import Login from './Login';
 import './App.css';
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
               <Route exact path="/" component={Home} />
               <Route path="/categories" component={Categories} />
               <Route path="/stores" component={Locations} />
+              <Route path="/login" component={Login} />
               <Redirect to="/" />
             </Switch>
           </div>

@@ -158,7 +158,7 @@ export default class Header extends Component {
             </Link>
           </Cell>
           <Cell>
-            <Link to="/signin">
+            <Link to="/login">
               <StyleSignIn />
             </Link>
           </Cell>
